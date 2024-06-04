@@ -2,8 +2,6 @@
 
 ## Conceito de algoritmo
 
----
-
 Um algoritmo é um conjunto de instruções bem definidas que,permitem resolver um determinado problema ou executar uma tarefa específica. Em termos simples, é um conjunto de passos que descreve como um problema pode ser resolvido de maneira sistemática. Os algoritmos são fundamentais em ciência da computação podendo ser escritos por meio de pseudocódigos, fluxogramas ou diretamente em linguagens de programação. Na disciplina de algoritmos I utilizamos da linguagem C ao longo do semestre.
 
 ## Arquitetura de um Computador
@@ -19,10 +17,7 @@ Nas primeiras aulas de algoritmos vimos de maneira breve como funciona um comput
 Nesse tópico estarei fazendo uma breve documentação do que aprendi na **linguagem C aplicada em lógica de programação**
 
 **Estrutura básica da linguagem C**
-''' #include <stdio.h> // biblioteca responsável pelas entradas e saídas na linguagem C
-
-int main (void) {
-
-    return 0;
-
-} '''
+''' #include<stdio.h>
+int main(){
+return 0;
+}'''
