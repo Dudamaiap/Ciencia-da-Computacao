@@ -17,7 +17,9 @@ Nas primeiras aulas de algoritmos vimos de maneira breve como funciona um comput
 Nesse tópico estarei fazendo uma breve documentação do que aprendi na **linguagem C aplicada em lógica de programação**
 
 **Estrutura básica da linguagem C**
-''' #include<stdio.h>
+'''
+#include<stdio.h>
 int main(){
 return 0;
-}'''
+}
+'''
