@@ -14,5 +14,5 @@ A estrutura do repositório está organizado por matérias, em cada pasta estar�
 
 Para dúvidas ou sugestões, você pode me encontrar em:
 
-- Email: (dudamaiapereira@gmail.com)
-- LinkedIn: (www.linkedin.com/in/maria-eduarda-maia-pereira)
+- Email: dudamaiapereira@gmail.com
+- LinkedIn: www.linkedin.com/in/maria-eduarda-maia-pereira
