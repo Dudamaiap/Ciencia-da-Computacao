@@ -63,9 +63,9 @@ Expressões relacionais são utilizadas para comparar valores e produzir um resu
 
 - == : igualdade
 - != : diferente
-- > : maior que
+- .> : maior que
 - < : menor que
-- > = : maior ou igual
+- .> = : maior ou igual
 - <= : menor ou igual
 
 ### Expressões Lógicas
