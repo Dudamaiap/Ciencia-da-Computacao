@@ -14,4 +14,4 @@ Quando uma função não retorna nada chamamos de **procedimento**
 
 ## Estrutura de uma função
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6ea2f80a-8feb-4599-8caf-36ec054209d7/8a628f26-5c17-4177-9c45-01fc253ee325/Untitled.png)
+![Estrutura de uma função](image.png)
