@@ -14,7 +14,7 @@ Quando uma função não retorna nada chamamos de **procedimento**
 
 ## Estrutura de uma função
 
-![Estrutura de uma função](image-2.png)
+![Estrutura de uma função](image.png)
 
 **Parâmetros da função:**
 A declaração de parâmetros é uma lista de variáveis juntamente com seus tipos:

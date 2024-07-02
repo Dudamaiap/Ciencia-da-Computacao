@@ -48,7 +48,7 @@ Na linguagem C, quando declaramos um ponteiro, informamos ao compilador para que
   p++
 - soma +1 no endereço armazenado no ponteiro
   p--
-  \*subtrai 1 no endereço armazenado no ponteiro
+  *subtrai 1 no endereço armazenado no ponteiro
   p+15
 - soma +15 no endereço armazenado no ponteiro
 - **Relacionais**

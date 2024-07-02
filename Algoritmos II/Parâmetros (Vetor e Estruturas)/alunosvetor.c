@@ -12,7 +12,7 @@ typedef struct
 
 void ordernarAlunosDecrescente(Aluno alunos[], int tamanho)
 {
-  Aluno temp;
+  Aluno temp; 
   for (int i = 0; i < tamanho - 1; i++)
   {
     for (int j = i + 1; j < tamanho; j++)

@@ -30,7 +30,7 @@ int main(void)
   }
   else
   {
-    printf("O número %d da sequência de Fibonacci é: %d\n", numero,
+    printf("O número %d da sequência de Fibonacci é: %d\n", numero, fibonacci(numero));
   }
   return 0;
 }
