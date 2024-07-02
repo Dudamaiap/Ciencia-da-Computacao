@@ -4,24 +4,27 @@
 - Em C, as estruturas são definidas com a palavra-chave `struct`
 - As estruturas podem ser utilizadas para representar objetos ou registros em um programa
   Sendo declaradas assim:
-  '''
+
+  ```
   struct nomestruct{
   tipo1 variavel1;
   tipo2 variavel2;
   ...
   tipon variaveln;
   };
-  '''
+  ```
+
   Uma estrutura pode ser vista como um agrupamento de dados.
   Exemplo de estrutura:
   **Cadastro de pessoas** todas essas informações são da mesma pessoa portanto podemos agrupá-las.
-  '''
+
+  ```
   struct cadastro{
   char nome[50];
   int idade;
   char endereco[100];
   };
-  '''
+  ```
 
   **Porque usar estruturas?**
   Imagina que você precise fazer o cadastro de 4 pessoas diferentes:
@@ -35,7 +38,7 @@ char endereco1[100], endereco2[100], endereco3[100], endereco4[100]
 
 Utilizando da estrutura o mesmo cadastro pode ser feito da seguinte maneira:
 
-'''
+```
 struct cadastro{
 char nome[50];
 int idade;
@@ -43,7 +46,7 @@ char endereco[100];
 }
 
 struct cadastro cadastro1, cadastro2, cadastro3, cadastro4;
-'''
+```
 
 # Array de estruturas
 
@@ -56,7 +59,7 @@ struct cadastro cad[100];
 
 - Uma estrutura de estruturas é uma estrutura que contém outras estruturas como membros
 
-'''
+```
 struct endereco{
 char rua[50];
 int numero;
@@ -66,4 +69,4 @@ char nome[50];
 int idade;
 struct endereco end;
 };
-'''
+```

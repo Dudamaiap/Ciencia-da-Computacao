@@ -8,7 +8,7 @@
 
 - É o asterisco(\*) que informa ao compilador que aquela variável não vai guardar um valor mas sim um endereço para o tipo especificado.
 
-'''
+```
 int x;
 float y;
 struct ponto p;
@@ -16,7 +16,7 @@ struct ponto p;
 int *x;
 float *y;
 struct ponto \*p;
-'''
+```
 
 Na linguagem C, quando declaramos um ponteiro, informamos ao compilador para que tipo de variável vamos apontá-lo.
 
@@ -27,14 +27,14 @@ Na linguagem C, quando declaramos um ponteiro, informamos ao compilador para que
 
 - O ponteiro armazena o endereço da variável para onde ele aponta.
 - Para saber o endereço de memória de uma variável do nosso programa usamos o operador &
-  '''
+  ```
   int main(){
   int c = 10;
   int \*p;
   p = &c;
   return 0;
   }
-  '''
+  ```
 
 ## Utilização
 

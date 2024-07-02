@@ -35,7 +35,7 @@ e modificá-los.
   • **Repetição sem o último elemento:** o processo se repete, mas desta vez até o penúltimo elemento.
   • **Finalização antecipada:** Se durante uma passagem pelo array nenhuma
   troca for realizada, isso significa que o array já está ordenado.
-  '''
+  ```
   void bubbleSort(int array[], int tam){
   int aux;
   for(int i = 0; i < tam; i++){
@@ -52,4 +52,4 @@ e modificá-los.
   break;
   }
   }
-  '''
+  ```
