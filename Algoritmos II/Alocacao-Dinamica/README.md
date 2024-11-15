@@ -56,8 +56,13 @@ Para liberar a memória alocada, deve-se usar a função free. Ela tem o seguint
 **Qual a diferença entre todos eles?**
 O malloc aloca memória vazia, ou seja, sem nenhum valor armazenado.
 O calloc aloca memória vazia e inicializa todos os bytes com o valor 0.
+O realloc realoca memória, ou seja, aumenta ou diminui o tamanho da memória
 Em outros termos:
 Em termos mais técnicos:
 
-- malloc: Separa um espaço na memória, mas não garante que ele esteja "limpo" (ou seja, pode ter dados antigos).
-- calloc: Separa um espaço na memória e garante que ele esteja "limpo" (todos os espaços estão inicializados como zero).
+### Resumo
+
+- malloc: Aloca memória não inicializada.
+- calloc: Aloca e inicializa a memória para zero.
+- realloc: Redimensiona a memória previamente alocada.
+- free: Libera a memória alocada.
