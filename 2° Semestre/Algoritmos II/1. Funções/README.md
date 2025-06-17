@@ -5,8 +5,8 @@
 A função tem o objetivo de ser especialista em uma coisa. Funções são blocos de código que podem ser nomeados e chamados de dentro de um programa.
 
 - Facilitam a estruturação e reutilização do código.
-  • Estruturação: programas grandes e complexos são construídos bloco a bloco.
-  • Reutilização: o uso de funções evita a cópia desnecessária de trechos de código que realizam a mesma tarefa, diminuindo assim o tamanho do programa e a ocorrência de erros.
+- Estruturação: programas grandes e complexos são construídos bloco a bloco.
+- Reutilização: o uso de funções evita a cópia desnecessária de trechos de código que realizam a mesma tarefa, diminuindo assim o tamanho do programa e a ocorrência de erros.
 
 Quem chama a função main é o sistema operacional
 
@@ -14,32 +14,34 @@ Quando uma função não retorna nada chamamos de **procedimento**
 
 ## Estrutura de uma função
 
-![Estrutura de uma função](image.png)
+![Estrutura de uma função](./2°%20Semestre/Algoritmos%20II/1.%20Funções/img/image-1.png)
+
 
 **Parâmetros da função:**
 A declaração de parâmetros é uma lista de variáveis juntamente com seus tipos:
 
 - tipo1 nome1, tipo2 nome2
 - Pode-se definir quantos parâmetros achar necessário
-  '''
+  ```c
   int soma(int x, int y){
-  return x + y;
+    return x + y;
   }
-  '''
-  As funções que não recebem parâmetros são chamadas de procedimento que podem ser feitos de duas formas:
+  ```
+  ### As funções que não recebem parâmetros são chamadas de procedimento que podem ser feitos de duas formas:
 - Podemos deixar a lista de parâmetros vazia
 - Podemos usar a palavra chave void
-  '''
+   ```c
   void mensagem(){
-  printf("Olá, mundo!");
+      printf("Olá, mundo!");
   }
-  '''
-  '''
+   ```
+  ```c
   void mensagem(void){
-  printf("Olá, mundo!");
+      printf("Olá, mundo!");
   }
-  '''
-  'A função deve ser declarada antes da clausula **main**'
+  ```
+
+  A função deve ser declarada antes da cláusula **main**
 
 ## Variável Global
 
@@ -52,7 +54,7 @@ Variáveis globais são declaradas fora de todas as funções do programa.
 ## Variável Local
 
 Variáveis locais são aquelas que só têm validade dentro do bloco no qual são declaradas.
-• Um bloco começa quando abrimos uma chave e termina quando fechamos a chave.
+- Um bloco começa quando abrimos uma chave e termina quando fechamos a chave.
 
 ## Passagem de Parâmetros
 
