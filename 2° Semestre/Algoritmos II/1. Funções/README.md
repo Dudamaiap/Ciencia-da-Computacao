@@ -14,7 +14,7 @@ Quando uma função não retorna nada chamamos de **procedimento**
 
 ## Estrutura de uma função
 
-![Estrutura de uma função](./2°%20Semestre/Algoritmos%20II/1.%20Funções/img/image-1.png)
+![Estrutura de uma função](../1.%20Funções/img/image-1.png)
 
 
 **Parâmetros da função:**
@@ -63,11 +63,11 @@ Na linguagem C, os parâmetros de uma função são sempre passados por valor, o
 
 ## Passagem por Valor
 
-![alt text](image-1.png)
+![alt text](../1.%20Funções/img/image-3.png)
 
 ## Passagem por Referência
 
 Quando se quer que o valor da variável mude dentro da função, usa-se passagem de parâmetros por referência.
 • Neste tipo de chamada, não se passa para a função o valor da variável, mas a sua referência (seu endereço na memória);
 
-![passagem por referencia](image-3.png)
+![passagem por referencia](../1.%20Funções/img/passagem%20referencia.png)
